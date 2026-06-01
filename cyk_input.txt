@@ -1,0 +1,13 @@
+S A B C
+a b
+8
+S AB
+S BC
+A BA
+A a
+B CC
+B b
+C AB
+C a
+S
+baaba
