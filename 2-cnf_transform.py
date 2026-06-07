@@ -104,7 +104,7 @@ def remove_useless(prods, terminals, start):
                     generating.add(A)
                     changed = True
                     break
-
+    # filtrare, raman doar neterminale generating si productii care contin simboluri generating
     prods2 = {}
     for A, rhss in prods.items():
         if A not in generating:
