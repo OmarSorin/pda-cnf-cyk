@@ -118,6 +118,7 @@ def remove_useless(prods, terminals, start):
 
     reachable = {start}
     stack = [start]
+    ## arunc la gunoi neterminalele unreachable
     while stack:
         X = stack.pop()
         for rhs in prods2.get(X, []):
